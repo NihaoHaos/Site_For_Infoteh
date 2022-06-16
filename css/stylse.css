@@ -1,0 +1,49 @@
+h1 {
+    font-size: 72px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+body {
+    margin: 0;
+}
+.section_header {
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: #00A651;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.hearder_logo{
+    display: flex;
+    align-items: center ;
+}
+.header_logo_text{
+    color: rgb(255, 255, 255);
+    max-width: 137px;
+    padding-left: 20px;
+}
+.menu-items{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    display: inline;
+    padding-right: 20px;
+    cursor: pointer;
+}
+li:hover{
+    color: limegreen;
+}
+.banner{
+    height: 700px;
+    background-image: url('../images/banner1.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
